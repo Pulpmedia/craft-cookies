@@ -1,0 +1,28 @@
+{% import "_includes/forms" as forms %}
+
+{{ forms.lightswitchField({
+    first: true,
+    label: "Aktiviert",
+    name: 'enabled',
+    on: settings['enabled']
+}) }}
+
+{{ forms.textAreaField({
+    label: "Trackingcodes",
+    name: 'code',
+    value: settings.code,
+    rows: 10,
+    required: true
+}) }}
+
+{{ forms.textField({
+    label: "Popup-Nachricht"| translate,
+    name: 'messageText',
+    value: settings.messageText
+}) }}
+
+{{ forms.textField({
+    label: "Bestätigungstext",
+    name: 'ctaText',
+    value: settings.ctaText
+}) }}

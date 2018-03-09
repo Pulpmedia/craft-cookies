@@ -1,0 +1,16 @@
+{% if not accepted %}
+{% do view.registerAssetBundle("Pulpmedia\\AnalyticsPlugin\\AnalyticsPluginAssets") %}
+<div class="pulp-analytics-container">
+    <div class="pulp-analytics-message">{{messageText}}</div>
+    <div class="pulp-analytics-confirm"><button class="pulp-analytics-confirm-button">{{ctaText}}</button></div>
+</div>
+<script>
+    window.initPulpAnalytics = function(){
+        {{code|raw}}
+    }
+</script>
+{% else %}
+<script>
+    {{code|raw}}
+</script>
+{% endif %}

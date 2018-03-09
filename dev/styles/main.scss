@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+.pulp-analytics-container{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(0,0,0);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.pulp-analytics-message{
+    color: #FFF;
+    font-family: Helvetica,Calibri,Arial,sans-serif;
+    font-size: 16px;
+}
+
+.pulp-analytics-confirm{
+    text-align: right;
+    // flex-basis: 140px;
+    flex-grow: 1;
+}
+.pulp-analytics-confirm-button{
+    color: rgb(0, 0, 0);
+    background-color: rgb(241, 214, 0);
+    border-color: transparent;
+    font-family: Helvetica,Calibri,Arial,sans-serif;
+    font-size: 16px;
+    padding: .4em .8em;
+}

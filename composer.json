@@ -1,0 +1,24 @@
+{
+    "name": "pulpmedia/analytics",
+    "description": "Your plugin’s package description",
+    "version": "1.0.1",
+    "type": "craft-plugin",
+    "minimum-stability": "dev",
+    "require": {
+      "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+      "psr-4": {
+        "Pulpmedia\\AnalyticsPlugin\\": "src/"
+      }
+    },
+    "support": {
+      "email": "you@example.com"
+    },
+    "extra": {
+      "handle": "pulpmedia-analytics",
+      "name": "Pulpmedia Analytics",
+      "developer": "Pulpmedia",
+      "developerUrl": "https://www.pulpmedia.at"
+    }
+  }
