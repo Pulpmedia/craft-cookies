@@ -7,28 +7,38 @@
   left: 0;
   width: 100%;
   padding: 15px;
-  background-color: black;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -ms-flex-align: center;
       align-items: center;
-  -ms-flex-pack: end;
-      justify-content: flex-end; }
+  z-index: 1000; }
+  @media (min-width: 531px) {
+    .pulp-analytics-container {
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap; } }
 
 .pulp-analytics-message {
-  color: #FFF;
-  font-family: Helvetica,Calibri,Arial,sans-serif;
+  margin: 1em;
+  font-family: Helvetica, Calibri, Arial, sans-serif;
   font-size: 16px; }
 
 .pulp-analytics-confirm {
-  text-align: right;
-  -ms-flex-positive: 1;
-      flex-grow: 1; }
+  margin: 1em; }
+  @media (max-width: 530px) {
+    .pulp-analytics-confirm {
+      width: 100%;
+      text-align: center;
+      margin-top: 0; } }
 
 .pulp-analytics-confirm-button {
-  color: black;
-  background-color: #f1d600;
   border-color: transparent;
-  font-family: Helvetica,Calibri,Arial,sans-serif;
+  font-family: Helvetica, Calibri, Arial, sans-serif;
   font-size: 16px;
   padding: .4em .8em; }
+  @media (max-width: 530px) {
+    .pulp-analytics-confirm-button {
+      width: 100%; } }
