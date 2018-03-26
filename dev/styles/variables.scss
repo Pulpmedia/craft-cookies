@@ -1,0 +1,12 @@
+// ---------------------------
+// ---------- SIZES ----------
+// ---------------------------
+
+$screen-xs-max: 375px;
+$screen-sm-max: 530px;
+$screen-md-max: 768px;
+$screen-lg-max: 960px;
+$screen-sm-min: $screen-xs-max + 1;
+$screen-md-min: $screen-sm-max + 1;
+$screen-lg-min: $screen-md-max + 1;
+$screen-xl-min: $screen-lg-max + 1;
