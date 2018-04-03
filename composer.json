@@ -1,7 +1,7 @@
 {
     "name": "pulpmedia/analytics",
     "description": "Your plugin’s package description",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "type": "craft-plugin",
     "minimum-stability": "dev",
     "require": {
@@ -19,6 +19,9 @@
       "handle": "pulpmedia-analytics",
       "name": "Pulpmedia Analytics",
       "developer": "Pulpmedia",
-      "developerUrl": "https://www.pulpmedia.at"
+      "developerUrl": "https://www.pulpmedia.at",
+      "branch-alias": {
+        "dev-master": "1.1.x-dev"
+      }
     }
   }
