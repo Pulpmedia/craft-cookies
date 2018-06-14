@@ -1,11 +1,11 @@
 {
-    "name": "pulpmedia/analytics",
+    "name": "pulpmedia/craft-cookies",
     "description": "Your plugin’s package description",
     "version": "1.1.0",
     "type": "craft-plugin",
     "minimum-stability": "dev",
     "require": {
-      "craftcms/cms": "^3.0.0-RC1"
+      "craftcms/cms": "^3.0"
     },
     "autoload": {
       "psr-4": {
@@ -13,11 +13,11 @@
       }
     },
     "support": {
-      "email": "you@example.com"
+      "email": "alexandre.kilian@pulpmedia.at"
     },
     "extra": {
       "handle": "pulpmedia-analytics",
-      "name": "Pulpmedia Analytics",
+      "name": "Cookie Banner",
       "developer": "Pulpmedia",
       "developerUrl": "https://www.pulpmedia.at",
       "branch-alias": {
