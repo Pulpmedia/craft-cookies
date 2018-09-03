@@ -1,7 +1,7 @@
 {% if not accepted %}
 {% do view.registerAssetBundle("Pulpmedia\\AnalyticsPlugin\\AnalyticsPluginAssets") %}
 <div class="pulp-analytics-container" style="background-color: {{bgColor}}; color:{{textColor}};">
-    <div class="pulp-analytics-message">{{messageText}}</div>
+    <div class="pulp-analytics-message">{{messageText|raw}}</div>
     <div class="pulp-analytics-confirm">
         <button class="pulp-analytics-confirm-button"
                 style="background-color: {{buttonColor}};color: {{buttonTextColor}}">{{ctaText}}</button></div>

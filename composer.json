@@ -1,7 +1,7 @@
 {
     "name": "pulpmedia/craft-cookies",
     "description": "Your plugin’s package description",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "type": "craft-plugin",
     "minimum-stability": "dev",
     "require": {
@@ -21,7 +21,7 @@
       "developer": "Pulpmedia",
       "developerUrl": "https://www.pulpmedia.at",
       "branch-alias": {
-        "dev-master": "1.1.x-dev"
+        "dev-master": "1.2.x-dev"
       }
     }
   }
