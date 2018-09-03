@@ -1,7 +1,7 @@
 {
     "name": "pulpmedia/craft-cookies",
     "description": "Your plugin’s package description",
-    "version": "1.1.1",
+    "version": "1.2.0",
     "type": "craft-plugin",
     "require": {
       "craftcms/cms": "^3.0"
@@ -18,6 +18,9 @@
       "handle": "pulpmedia-analytics",
       "name": "Cookie Banner",
       "developer": "Pulpmedia",
-      "developerUrl": "https://www.pulpmedia.at"
+      "developerUrl": "https://www.pulpmedia.at",
+      "branch-alias": {
+        "dev-master": "1.2.x-dev"
+      }
     }
   }
