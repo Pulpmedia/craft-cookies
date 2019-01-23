@@ -83,7 +83,7 @@ var _jquery2 = _interopRequireDefault(_jquery);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function ready(fn) {
-    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+    if (document.attachEvent ? document.readyState === 'complete' : document.readyState !== 'loading') {
         fn();
     } else {
         document.addEventListener('DOMContentLoaded', fn);
@@ -93,10 +93,10 @@ function ready(fn) {
 var track = function track() {
     var hide = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
 
-    _jsCookie2.default.set('user-accepted-cookies', true);
+    _jsCookie2.default.set('user-accepted-cookies', true, { expires: 30 });
     window.initPulpAnalytics();
     if (hide) {
-        (0, _jquery2.default)(".pulp-analytics-container").hide();
+        (0, _jquery2.default)('.pulp-analytics-container').hide();
     }
 };
 var init = function init() {
