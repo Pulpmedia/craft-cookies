@@ -1,7 +1,7 @@
 {
     "name": "pulpmedia/craft-cookies",
     "description": "Your plugin’s package description",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "type": "craft-plugin",
     "require": {
       "craftcms/cms": "^3.0"
